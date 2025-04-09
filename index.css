@@ -1,0 +1,15 @@
+body {
+  font-family: Roboto, Arial;
+  font-size: 20px;
+  background-color: #b1abe0;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+button {
+  font-size: 20px;
+  background-color: #b1abe0;
+  margin: 10px;
+  cursor: pointer;
+}
