@@ -22,7 +22,7 @@ img {
 
 .song-box {
   border: 1px solid black;
-  width: 250px;
+  width: 22%;
   background-color: #b9d1f5;
   margin-left: 39%;
 }
@@ -37,4 +37,23 @@ img {
   height: 50px;
   margin: 5px;
   cursor: pointer;
+}
+
+.contact-text {
+  font-weight: bold;
+}
+
+.contacts {
+  padding-top: 18px;
+  padding-bottom: 15px;
+  margin-left: 36.4%;
+  width: 300px;
+  border: 5px solid black;
+  background-color: #d8daf1;
+  margin-bottom: 10px;
+}
+
+.other-text {
+  font-size: 30px;
+  margin-top: 15px;
 }
