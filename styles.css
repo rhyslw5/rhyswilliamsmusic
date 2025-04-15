@@ -3,13 +3,16 @@ html, body {
 }
 
 body {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Roboto, Arial;
   font-size: 20px;
   background-color: #b1abe0;
-  width: 75%;
   margin: auto;
   text-align: center;
-  display: flex;
   flex-direction: column;
 }
 
@@ -32,13 +35,22 @@ img {
 
 .song-box {
   border: 1px solid black;
-  width: 22%;
   background-color: #b9d1f5;
-  margin-left: 39%;
+}
+
+.song-box-info {
+  margin-top: -7px;
+  margin-bottom: 30px;
+  line-height: 14px;
+}
+
+.write-date {
+  font-size: 16px;
+  color: rgb(45, 45, 45);
 }
 
 .banner {
-  width: 100%;
+  width: 75%;
   height: 200px;
 }
 
@@ -56,7 +68,6 @@ img {
 .contacts {
   padding-top: 18px;
   padding-bottom: 15px;
-  margin-left: 36.4%;
   width: 300px;
   border: 5px solid black;
   background-color: #d8daf1;
