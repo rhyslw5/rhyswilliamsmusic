@@ -62,9 +62,10 @@ img {
 .song-box {
   border: 1px solid black;
   background-color: #d8dcf1;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 40px;
+  margin-left: 40px;
   width: 250px;
+  border-radius: 5px;
 }
 
 .song-box-info {
