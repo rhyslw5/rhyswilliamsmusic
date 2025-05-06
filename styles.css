@@ -34,7 +34,7 @@ main {
 }
 
 .banner {
-  background-image: url("banner.jpg");
+  background-image: url("images/banner.jpg");
   width: 75%;
   min-height: 200px;
   background-position: center;
