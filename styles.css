@@ -155,3 +155,21 @@ footer {
 .response {
   display: none;
 }
+
+.sidebar1 {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 87.5%;
+}
+
+.sidebar2 {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 87.5%;
+  right: 0;
+}
