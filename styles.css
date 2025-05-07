@@ -44,6 +44,8 @@ button {
   background-color: #ffffff6c;
   margin: 10px;
   cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.208);
 }
 
 img {
@@ -136,4 +138,20 @@ footer {
 
 .script {
   font-family: Amita;
+}
+
+#mc_embed_signup {
+  background: #d8dcf1;
+  border: 1px solid black;
+  border-radius: 5px;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+  width: 500px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  justify-self: center;
+}
+
+.response {
+  display: none;
 }
