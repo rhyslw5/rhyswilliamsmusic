@@ -193,3 +193,10 @@ a, a:visited {
   align-items: center;
   text-align: center;
 }
+
+.thumbnail {
+  width: unset;
+  height: 200px;
+  margin: 10px;
+  border-radius: 15px;
+}
