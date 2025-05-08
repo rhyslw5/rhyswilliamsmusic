@@ -17,26 +17,8 @@ body {
   flex-direction: column;
 }
 
-.news-body {
-  background-color: #abbfe0;
-}
-
-.more-body {
-  background-color: #cdd094;
-  /*background-color: #a5c68e;*/
-}
-
 main {
   flex: 1 0 auto;
-}
-
-.banner {
-  background-image: url("images/banner.jpg");
-  width: 75%;
-  min-height: 195px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 button {
@@ -52,6 +34,45 @@ img {
   width: 150px;
   height: 150px;
   object-fit: cover;
+}
+
+footer {
+  font-size: 12px;
+  color: rgb(61, 61, 61);
+  flex-shrink: 0;
+}
+
+a, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul {
+  height:200px;
+  width: 300px;
+  overflow:hidden;
+  overflow-y:scroll;
+  text-align: left;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.more-body {
+  background-color: #cdd094;
+  /*background-color: #a5c68e;*/
+}
+
+.news-body {
+  background-color: #abbfe0;
+}
+
+.banner {
+  background-image: url("images/banner.jpg");
+  width: 75%;
+  min-height: 195px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .song-box-container {
@@ -109,12 +130,6 @@ img {
   margin: 20px;
 }
 
-footer {
-  font-size: 12px;
-  color: rgb(61, 61, 61);
-  flex-shrink: 0;
-}
-
 .descriptor {
   margin-top: -10px;
   margin-bottom: 30px;
@@ -138,18 +153,6 @@ footer {
 
 .script {
   font-family: Amita;
-}
-
-#mc_embed_signup {
-  background: #d8dcf1;
-  border: 1px solid black;
-  border-radius: 5px;
-  clear: left;
-  font: 14px Helvetica, Arial, sans-serif;
-  width: 500px;
-  margin-top: 35px;
-  margin-bottom: 20px;
-  justify-self: center;
 }
 
 .response {
@@ -180,11 +183,6 @@ footer {
   margin-bottom: -5px;
 }
 
-a, a:visited {
-  color: black;
-  text-decoration: none;
-}
-
 .sb-box {
   width: 100%;
   height: 65px;
@@ -201,12 +199,14 @@ a, a:visited {
   border-radius: 15px;
 }
 
-nav ul {
-  height:200px;
-  width: 300px;
-  overflow:hidden;
-  overflow-y:scroll;
-  text-align: left;
-  font-size: 18px;
-  line-height: 25px;
+#mc_embed_signup {
+  background: #d8dcf1;
+  border: 1px solid black;
+  border-radius: 5px;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+  width: 500px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  justify-self: center;
 }
