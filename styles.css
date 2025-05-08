@@ -200,3 +200,13 @@ a, a:visited {
   margin: 10px;
   border-radius: 15px;
 }
+
+nav ul {
+  height:200px;
+  width: 300px;
+  overflow:hidden;
+  overflow-y:scroll;
+  text-align: left;
+  font-size: 18px;
+  line-height: 25px;
+}
