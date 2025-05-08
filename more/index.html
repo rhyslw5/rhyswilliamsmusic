@@ -29,7 +29,7 @@
       <iframe style="border: none; margin:0px; margin-top: 10px; padding:0px; display:inline-block; width:300px; height:250px; overflow:hidden;" src="https://nomadmania.com/api/snippet/67032/s"></iframe>
       <nav style="display:inline-block;">
         <b style="margin-left: 50px; font-size: 17px;">Countries Visited (UN+) [24/265]</b><br>
-        <ul style="margin-left: 50px; padding: 0; border: 1px black solid; border-radius: 5px;">
+        <ul style="margin-left: 50px; padding: 0; border: 1px black solid; border-radius: 5px;" onload="scrollTo(country24)">
           <input type="checkbox" id="country28" name="country28" value="Hong Kong" onclick="return false;">
           <label for="country28" style="color: gray; text-decoration: line-through;"> Hong Kong</label><br>
           <input type="checkbox" id="country27" name="country27" value="Mongolia" onclick="return false;">
@@ -87,7 +87,11 @@
           <input type="checkbox" id="country1" name="country1" value="United States (2002)" checked onclick="return false;">
           <label for="country1"> United States (2002)</label><br>
         </ul>
-    </nav>
+        <script>
+        const country24 = document.getElementById('country24');
+        country24.scrollIntoView();
+        </script>
+      </nav>
       <br><b>Mashups</b><br>
       <a href="https://youtu.be/jt7dtCIIqEk" target="_blank"><img src="./images/bon-impala.png" class="thumbnail"></a>
       <a href="https://youtu.be/HnVIt2BSYRs" target="_blank"><img src="./images/chili.png" class="thumbnail"></a>
@@ -102,21 +106,19 @@
       <a href="https://youtu.be/BHdeS26htw4" target="_blank"><img src="./images/night-sky.png" class="thumbnail"></a>
       <br><br><b>Playlists</b><br><br>
       <button onclick="toggle(this)" style="width: 100%; text-align: left;">▼ Standard Playlists</button>
-
-<script>
-  let toggle = button => {
-    let element = document.getElementById("playlists-standard");
-    let hidden = element.getAttribute("hidden");
-
-    if (hidden) {
-       element.removeAttribute("hidden");
-       button.innerText = "▼ Standard Playlists";
-    } else {
-       element.setAttribute("hidden", "hidden");
-       button.innerText = "▶ Standard Playlists";
-    }
-  }
-</script>
+      <script>
+      let toggle = button => {
+        let element = document.getElementById("playlists-standard");
+        let hidden = element.getAttribute("hidden");
+        if (hidden) {
+          element.removeAttribute("hidden");
+          button.innerText = "▼ Standard Playlists";
+        } else {
+          element.setAttribute("hidden", "hidden");
+          button.innerText = "▶ Standard Playlists";
+        }
+      }
+      </script>
       <section id="playlists-standard">
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3o4ydgEfTYHTXLYyRTUIF1?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe><br>
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1pl31ZgJqBogUxOHxysP4X?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -133,21 +135,19 @@
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2ZWNZN1FO4eN4DrnTfNrjW?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       </section>
       <button onclick="toggle2(this)" style="width: 100%; text-align: left;">▼ Music Scenes</button>
-
-<script>
-  let toggle2 = button => {
-    let element = document.getElementById("music-scenes");
-    let hidden = element.getAttribute("hidden");
-
-    if (hidden) {
-       element.removeAttribute("hidden");
-       button.innerText = "▼ Music Scenes";
-    } else {
-       element.setAttribute("hidden", "hidden");
-       button.innerText = "▶ Music Scenes";
-    }
-  }
-</script>
+      <script>
+      let toggle2 = button => {
+        let element = document.getElementById("music-scenes");
+        let hidden = element.getAttribute("hidden");
+        if (hidden) {
+          element.removeAttribute("hidden");
+          button.innerText = "▼ Music Scenes";
+        } else {
+          element.setAttribute("hidden", "hidden");
+          button.innerText = "▶ Music Scenes";
+        }
+      }
+      </script>
       <section id="music-scenes">
         <div style="border-radius:12px; background-color:gray; margin-bottom: 10px;" width="100%" height="152px">ABC Islands (Mar 2025) [under review] </div>
         <div style="border-radius:12px; background-color:gray; margin-bottom: 10px;" width="100%" height="152px">Puerto Rico (Nov 2024) [under review] </div>
@@ -159,19 +159,18 @@
       </section>
       <button onclick="toggle3(this)" style="width: 100%; text-align: left;">▼ World Traveler</button>
       <script>
-  let toggle3 = button => {
-    let element = document.getElementById("world-traveler");
-    let hidden = element.getAttribute("hidden");
-
-    if (hidden) {
-       element.removeAttribute("hidden");
-       button.innerText = "▼ World Traveler";
-    } else {
-       element.setAttribute("hidden", "hidden");
-       button.innerText = "▶ World Traveler";
-    }
-  }
-</script>
+      let toggle3 = button => {
+        let element = document.getElementById("world-traveler");
+        let hidden = element.getAttribute("hidden");
+        if (hidden) {
+          element.removeAttribute("hidden");
+          button.innerText = "▼ World Traveler";
+        } else {
+          element.setAttribute("hidden", "hidden");
+          button.innerText = "▶ World Traveler";
+        }
+      }
+      </script>
       <section id="world-traveler">
         <div style="border-radius:12px; background-color:gray; margin-bottom: 10px;" width="100%" height="152px">MusicMania [WIP] </div>
         <div style="border-radius:12px; background-color:gray; margin-bottom: 10px;" width="100%" height="152px">Musicmaxxing [WIP] </div>
