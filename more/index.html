@@ -170,7 +170,7 @@
         }
       </script>
       <br><br><b>Playlists</b><br>
-      <button class="toggle" onclick="toggle(this)">▼ Standard Playlists</button>
+      <button class="toggle" id="toggle1" onclick="toggle(this)">▼ Standard Playlists</button>
       <script>
         let toggle = button => {
           let element = document.getElementById("playlists-standard");
@@ -178,6 +178,7 @@
           if (hidden) {
             element.removeAttribute("hidden");
             button.innerText = "▼ Standard Playlists";
+            document.getElementById('toggle1').scrollIntoView();
           } else {
             element.setAttribute("hidden", "hidden");
             button.innerText = "▶ Standard Playlists";
@@ -199,7 +200,7 @@
         <iframe class="playlist" src="https://open.spotify.com/embed/playlist/0mj3RuYHbDhE6RQf4TI2Dz?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         <iframe class="playlist" src="https://open.spotify.com/embed/playlist/2ZWNZN1FO4eN4DrnTfNrjW?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       </section>
-      <button class="toggle" onclick="toggle2(this)">▼ Music Scenes</button>
+      <button class="toggle" id="toggle2" onclick="toggle2(this)">▼ Music Scenes</button>
       <script>
         let toggle2 = button => {
           let element = document.getElementById("music-scenes");
@@ -207,6 +208,7 @@
           if (hidden) {
             element.removeAttribute("hidden");
             button.innerText = "▼ Music Scenes";
+            document.getElementById('toggle2').scrollIntoView();
           } else {
             element.setAttribute("hidden", "hidden");
             button.innerText = "▶ Music Scenes";
@@ -226,7 +228,7 @@
         <iframe class="playlist" src="https://open.spotify.com/embed/playlist/6G3cTgvep3FFL7sRwEmT9I?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         <iframe class="playlist" src="https://open.spotify.com/embed/playlist/2xs7r1VIY1yPouc8oANdDI?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       </section>
-      <button class="toggle" onclick="toggle3(this)">▼ World Traveler</button>
+      <button class="toggle" id="toggle3" onclick="toggle3(this)">▼ World Traveler</button>
       <script>
         let toggle3 = button => {
           let element = document.getElementById("world-traveler");
@@ -234,6 +236,7 @@
           if (hidden) {
             element.removeAttribute("hidden");
             button.innerText = "▼ World Traveler";
+            document.getElementById('toggle3').scrollIntoView();
           } else {
             element.setAttribute("hidden", "hidden");
             button.innerText = "▶ World Traveler";
