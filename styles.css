@@ -120,17 +120,15 @@ nav ul {
   margin-bottom: 30px;
 }
 
-.song-box-container {
-  display: flex;
-}
-
 .song-box {
   border: 1px solid black;
   background-color: #d8dcf1;
   margin-right: 30px;
   margin-left: 30px;
+  margin-bottom: 30px;
   width: 250px;
   border-radius: 5px;
+  display: inline-block;
 }
 
 .song-icon {
