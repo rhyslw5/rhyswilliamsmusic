@@ -162,6 +162,9 @@ nav ul {
   justify-self: center;
   text-align: left;
   padding-left: 150px;
+  background-color: #d8dcf15b;
+  color: rgba(0, 0, 0, 0.757);
+  cursor: help;
 }
 
 #mc_embed_signup {
