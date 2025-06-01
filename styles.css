@@ -189,10 +189,64 @@ nav ul {
   background-color: #abbfe0;
 }
 
+.footer {
+  cursor: none;
+}
+
+/*Travel*/
+
+.travel-body {
+  background-color: #cdd094;
+}
+
+.flag {
+  height: 16px;
+  width: 18px;
+}
+
+/*Travel Blogs*/
+
+.travel-blog-body {
+  width: 100%;
+  left: 0;
+}
+
+.travel-blog-title {
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.day-location {
+  color:rgb(39, 39, 39);
+  font-size:20px;
+  margin-top: -3px;
+}
+
+.travel-blog-text {
+  width: 60%;
+  margin-left: 20%;
+  line-height: 1.3em;
+  text-align: left;
+  margin-top: 8px;
+}
+
+.chapter-title {
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.inactive {
+  color: gray;
+  border: solid gray 1px;
+  cursor: default;
+}
+
 /*More*/
 
 .more-body {
-  background-color: #cdd094;
+  background-color: #d0be94;
 }
 
 .thumbnail {
