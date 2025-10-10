@@ -442,6 +442,15 @@ nav ul {
   vertical-align: top;
 }
 
+.mashup-title {
+  margin: 0;
+}
+
+.mashup-description {
+  font-size: 12px;
+  margin-top: 7px;
+}
+
 .playlist {
   border-radius: 12px;
   width: 100%;
