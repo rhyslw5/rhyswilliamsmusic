@@ -283,6 +283,26 @@ nav ul {
   overflow:hidden;
 }
 
+.countries {
+  display: inline-block;
+}
+
+.countries-title {
+  margin-left: 50px;
+  font-size: 17px;
+}
+
+.countries-list {
+  margin-left: 50px;
+  padding: 0;
+  border: 1px black solid;
+  border-radius: 5px;
+}
+
+.not-visited {
+  color: gray;
+}
+
 .flag {
   height: 16px;
   width: 18px;
