@@ -266,6 +266,10 @@ nav ul {
   cursor: none;
 }
 
+.highlight {
+  background-color: yellow;
+}
+
 /*Travel*/
 
 .travel-body {
