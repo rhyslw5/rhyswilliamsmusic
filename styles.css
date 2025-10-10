@@ -98,6 +98,26 @@ nav ul {
   background-color: #b1abe0
 }
 
+.sb-news {
+  background-color: #abbfe0;
+}
+
+.sb-contact {
+  background-color: #a5c68e;
+}
+
+.sb-travel {
+  background-color: #cdd094;
+}
+
+.sb-more {
+  background-color: #d0be94;
+}
+
+.sb-work {
+  background-color: #d09494;
+}
+
 .sidebar2 {
   background-color: rgba(0, 0, 0, 0.3);
   position: fixed;
@@ -105,6 +125,55 @@ nav ul {
   bottom: 0;
   left: 87.5%;
   right: 0;
+}
+
+.sb-future {
+  background-color: #b3b3b3;
+}
+
+.sb-escape {
+  background-color: #b19b80;
+}
+
+.sb-oscillation {
+  background-color: #37295a;
+  color: white;
+}
+
+.sb-springtime {
+  background-color: #947771;
+}
+
+.sb-morning {
+  background-color: #6f675f;
+  color: white;
+}
+
+.sb-boiling{
+  background-color: #677b9b;
+}
+
+.sb-snow{
+  background-color: #5e82a6;
+}
+
+.sb-ice{
+  background-color: #5a6262;
+  color: white;
+}
+
+.sb-heart{
+  background-color: #717560;
+  color: white;
+}
+
+.sb-gone{
+  background-color: #0a0a07;
+  color: white;
+}
+
+.sb-rain{
+  background-color: #888682;
 }
 
 @media (max-width: 800px) {
@@ -203,6 +272,17 @@ nav ul {
   background-color: #cdd094;
 }
 
+.nomadmania {
+  border: none;
+  margin:0px;
+  margin-top: 10px;
+  padding:0px;
+  display:inline-block;
+  width:300px;
+  height:250px;
+  overflow:hidden;
+}
+
 .flag {
   height: 16px;
   width: 18px;
@@ -298,6 +378,15 @@ nav ul {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.blog-footer {
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+.blog-button {
+  width: 125px;
 }
 
 .inactive {
