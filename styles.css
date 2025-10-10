@@ -451,6 +451,10 @@ nav ul {
   background-color: #d09494;
 }
 
+.page-description {
+  max-width:675px;
+}
+
 /*Font templates*/
 
 .serif {
