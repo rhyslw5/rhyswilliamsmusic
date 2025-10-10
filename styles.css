@@ -94,6 +94,10 @@ nav ul {
   text-align: center;
 }
 
+.sb-home {
+  background-color: #b1abe0
+}
+
 .sidebar2 {
   background-color: rgba(0, 0, 0, 0.3);
   position: fixed;
