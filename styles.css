@@ -221,11 +221,34 @@ nav ul {
   line-height: 14px;
 }
 
+.genre {
+  display:inline-block;
+  margin:0;
+  line-height: normal;
+}
+
+.genre-orchestral {
+  background-color: lightgreen;
+}
+
+.genre-electronic {
+  background-color: pink;
+}
+
+.genre-world {
+  background-color: lightblue;
+}
+
+.genre-pop {
+  background-color: lightyellow;
+}
+
 .write-date {
   font-size: 16px;
   color: rgb(45, 45, 45);
 }
 
+/*
 .key {
   border: solid black 1px;
   border-radius: 5px;
