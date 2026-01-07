@@ -127,6 +127,11 @@ nav ul {
   right: 0;
 }
 
+.sb-gen {
+  background-color: #121212;
+  color: white;
+}
+
 .sb-future {
   background-color: #b3b3b3;
 }
